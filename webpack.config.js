@@ -79,7 +79,7 @@ module.exports = {
   // configures where the build ends up
   output: {
     filename: "bundle.web.js",
-    path: path.resolve(appDirectory, "backend", "web_build")
+    path: path.resolve(appDirectory, "backend", "web_build", "static")
   },
 
   // ...the rest of your config
